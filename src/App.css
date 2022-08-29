@@ -1,38 +1,179 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  margin: 0;
+  font-family: "Noto Sans", Sans-serif;
+  background-color: #2D2D2C;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.main {
+  background-image: url(./assets/images/banner.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+
+.btn-primary {
+  color: white;
+  background-color: #F4AF00;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px 40px 15px 40px;
+}
+
+.btn-primary:hover {
+  background-color: #403F3C;
+}
+
+.navbar-brand h1 {
+  font-weight: 800;
+}
+
+.navbar-brand span {
+  background-color: #F4AF00;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+  padding-right: 2.5rem;
+  padding-left: 3.1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.navbar-dark .navbar-nav .active .nav-link {
+  color: #F4AF00;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #F4AF00;
+}
+
+.mymain {
+  background-image: url(./assets/images/bearded-bodybuilder.png);
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.contmain {
+  background-image: url(./assets/images/cont.png);
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.trainmain {
+  background-image: url(./assets/images/new.png);
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.abtmain {
+  background-image: url(./assets/images/wom.png);
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.trainmain .first-text, .abtmain .first-text{
+ margin-top: 34%;
+}
+
+.first-text{
+  color: #F4AF00;
+  margin-top: 16%;
+  font-size: 79px;
+  font-weight: 800;
+}
+
+.second-text{
+  color: white; 
+  font-size: 79px;
+  font-weight: 800;
+}
+.banner-button{
+  width: 166px;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.divider {
+  margin-top: 7%;
+}
+
+.border-left {
+ padding-left: 36px;
+  margin: 0 auto;
+  border-left: 2px solid white;
+}
+.border-left h3{
+  color: #F4AF00;
+  font-weight: 700;
+}
+
+.myleft {
+  margin-left: 13%;
+}
+
+.mybanner2 {
+  background-image: url(./assets/images/mybannernew.jpg);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-position: center;
+  background-size: cover;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.footerbanner {
+  background-image: url(./assets/images/footerbanner.jpg);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-position: center;
+  background-size: cover;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.myicons   i { 
+  color: #F4AF00;
+  font-size: 60px;
+}
+
+.foot-brand h1 {
+  font-weight: 800;
+}
+
+.foot-brand span {
+  background-color: #F4AF00;
+}
+
+.mywidth {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.bgmywarning {
+  
+  background-color: #F4AF00;
+  
+}
+.themecolor{
+   color: #F4AF00;
+}
+.cp {
+  padding-top : 13%;
 }
